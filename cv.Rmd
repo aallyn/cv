@@ -1,19 +1,13 @@
 ---
-name: Rémi
-surname: Thériault
-profilepic: "img/profile.png"
-position: "PhD Student"
-qualifications: "MSc"
-address: "Université du Québec à Montréal, Montréal, Québec, Canada"
-phone: (438) 995-7648
-www: remi-theriault.com
-email: "theriault.remi@courrier.uqam.ca"
-twitter: rempsyc
-github: rempsyc
-# linkedin: rempsyc
+name: Andrew
+surname: Allyn
+position: "Senior Research Manager - Gulf of Maine Research Institute"
+www: aallyn.github.io
+email: "andrew.allyn@gmail.com"
+github: aallyn
 
 aboutme: |
-  \RaggedRight My training and interests lie at the intersection of social psychology, neuroscience, and positive psychology. One of my research areas deals with the mind-body connection, for example through exploring alterations in the sense of embodiment, the placebo effect, and mindfulness. A second central research area of mine focuses on prosociality: empathy, perspective-taking, altruism, loving-kindness, and self-control. I am also passionate about open science, reproducible science, and data science using R (this CV was made in R too).
+  \RaggedRight About me text.
 
 date: "`r format(Sys.time(), '%B %Y')`"
 headcolor: "6FA3CE" # my shirt on the profil pic is 839AC4, but we take a bit lighter for better look
@@ -49,6 +43,7 @@ library(forcats)
 library(patchwork)
 library(see)
 library(rsvg)
+library(huxtable)
 library(kableExtra)
 
 # To format links throughout the CV
@@ -59,10 +54,10 @@ source("files/format_links.R")
 ########################
 
 # Specify your Google scholar profile
-scholar.profile <- "NrfwEncAAAAJ" # Get it from your Google Scholar profile URL
+scholar.profile <- "-dn-gUsAAAAJ&hl" # Get it from your Google Scholar profile URL
 
 # Specify your Google scholar short author name
-author.name <- "rém thériault"
+author.name <- "a allyn"
 # Note: correct name may vary (e.g., if you inconsistently used middle name initials)
 # Dominique Makowski's was simply "d makowski", so the pattern is unclear 
 # But usually it seems 1-3 letters from first name plus full last name
@@ -85,8 +80,8 @@ author.name <- "rém thériault"
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
 
-```{r Teaching parent, child=c('sections/teaching.Rmd')}
-```
+<!-- # ```{r Teaching parent, child=c('sections/teaching.Rmd')}
+# ``` -->
 
 ```{r Publications parent, child=c('sections/publications.Rmd')}
 ```
@@ -101,25 +96,4 @@ author.name <- "rém thériault"
 ```
 
 ```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
-```
-
-```{r Software parent, child=c('sections/software.Rmd')}
-```
-
-```{r Blogs parent, child=c('sections/blogs.Rmd'), eval = !short}
-```
-
-```{r Media coverage parent, child=c('sections/media_coverage.Rmd'), eval = !short}
-```
-
-```{r Other experience parent, child=c('sections/other_experience.Rmd'), eval = !short}
-```
-
-```{r Leadership parent, child=c('sections/leadership.Rmd'), eval = !short}
-```
-
-```{r Varia parent, child=c('sections/varia.Rmd'), eval = !short}
-```
-
-```{r credit parent, child=c('sections/credit.Rmd'), eval = !short}
 ```

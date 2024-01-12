@@ -6,51 +6,30 @@ output: html_document
 
 ```{r Education}
 data <- rbind(
-  
   tibble(
-    what = "PhD (Psychology - Social) - 120 credits",
-    when = "2018/09 - Present",
-    with = "Université du Québec à Montréal",
-    where = "Montréal, Québec, Canada",
-    details = c("GPA: 4.30/4.30",
-                "Advisory Committee: 
-                                    Stéphane Dandeneau (supervisor), 
-                                    Frédérick Philippe, \\&
-                                    Simon Grégoire")), 
+    what = "PhD Marine Science and Technology",
+    when = "2012-2024",
+    with = "University of Massachusetts Amherst",
+    where = "Amherst, MA"),
 
-  tibble(
-    what = "Master of Science (Psychiatry - Social \\& Transcultural) - 45 credits",
-    when = "2016/09 - 2018/08",
-    with = "McGill University",
-    where = "Montréal, Québec, Canada",
-    details = c("GPA: 4.00/4.00",
-                "Advisory Committee: 
-                                    Amir Raz (supervisor), 
-                                    Jennifer Bartz, 
-                                    Donald Taylor, \\&
-                                    Samuel Veissière")),
-  
-  tibble(
-    what = "Bachelor of Arts (Psychology, 
-    Behavioral Science, \\&
-    Sociology) - 120 credits",
-    when = "2013/01 - 2016/04",
-    with = "McGill University",
-    where = "Montréal, Québec, Canada",
-    details = c("GPA: 3.76/4.00 (Distinction – top 25\\%; note: 120 credits is equivalent to 40 classes)",
-                "Supervisor: Amir Raz")))
-  
-  # tibble(
-  #   what = "College Diploma (Social Sciences)",
-  #   when = "2010/08 - 2012/09",
-  #   with = "Cégep Édouard-Montpetit",
-  #   where = "Longueuil, Québec, Canada",
-  #   details = "Cote R: 30.754 (\\textit{Group Mean} = 22.95)"))
+    tibble(
+      what = "MSc Wildlife and Fisheries Conservation",
+      when = "2008-2012",
+      with = "University of Massachusetts Amherst",
+      where = "Amherst, MA"
+    ),
 
+    tibble(
+      what = "BA English",
+      when = "2003-2007",
+      with = "Connecticut College",
+      where = "New London, CT"
+    )
+  )
+  
  if (short) {
-   data <- data[1:7, ]
-   data$details <- NA
+   brief_entries(data, what, when, with, .protect = FALSE)
  }
  
-detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+detailed_entries(data, what, when, with, where, .protect = FALSE)
 ```

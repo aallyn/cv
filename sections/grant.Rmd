@@ -7,6 +7,8 @@ output: html_document
 
 # Research Grants
 
+To add: Lobster SDM, NSF Spatial Sciences, GOMCES, NFWF
+
 ```{r Grants}
 data <- rbind(
   

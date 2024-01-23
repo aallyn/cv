@@ -1,0 +1,81 @@
+---
+output: html_document
+---
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0in}
+\normalsize
+
+# Research
+
+```{r Research, include = TRUE}
+data <- rbind(
+    tibble(
+        what = "Senior Research Manager",
+        when = "2022-Present",
+        with = "Gulf of Maine Research Institute",
+        where = "Integrated Systems Ecology Lab",
+        details = c(
+            "Leads species distribution modeling work, including developing and predicting spatio-temporal models under potential future environmental conditions expected from global climate models",
+            "Designs and executes simulation studies to interrogate spatio-temporal model prediction skill and build theoretical understanding of capacity of spatio-temporal models to support forward-looking decision-making processes",
+            "Supports Dr. Mills in managing and running the Integrated Systems Ecology Lab through co-supervision of quantitative research associates, idea generation and proposal writing, project tracking and reporting, and optimizing project assignments across the lab"
+        )
+    ),
+    tibble(
+        what = "Research Associate",
+        when = "2019-2022",
+        with = "Gulf of Maine Research Institute",
+        where = "Integrated Systems Ecology Lab",
+        details = c(
+            "Managed species distribution modeling work, including gathering and processing a variety of state and federal fisheries-independent bottom trawl survey datasets, ocean model reanalysis products and global climate model outputs of physical environmental marine ecosystem conditions",
+            "Assisted Dr. Mills in managing the Integrated Systems Ecology Lab by setting up data analysis workflows, supporting and onboarding new lab members"
+        )
+    ),
+    tibble(
+        what = "Research technician",
+        when = "2016-2019",
+        with = "Gulf of Maine Research Institute",
+        where = "Integrated Systems Ecology Lab",
+        details = c("Completed analyses to understand project the distribution and abundance of marine species within the Northeast U.S. Shelf Large Marine Ecosystem by synthesizing quantiative species distribution models with qualitative expert climate vulnerability assessments")
+    ),
+    tibble(
+        what = "Gulf of Maine Coastal Ecosystem Survey Project Leader",
+        when = "2014-2017",
+        with = "University of Maine and the Gulf of Maine Research Institute",
+        where = "Portland, ME",
+        details = c(
+            "Designed project and wrote proposal to increase our understanding of the Gulf of Maine ecosystem, with a focus on the habitat use of marine birds (\\$490k over 3 yrs)",
+            "Completed at-sea ecosystem surveys, including making marine birds and mammals observations and supporting physical and biological oceanographic sampling",
+            "Synthesized marine bird distribution data to understand habitat use as a function of marine ecosystem conditions with Bayesian hierarchical communicate distance sampling models",
+            "Disseminated project results through final reports and informal blog entries (www.gomces.wordpress.com)"
+        )
+    ),
+    tibble(
+        what = "NSF IGERT Offshore Wind PhD Fellow",
+        when = "2012-2024",
+        with = "University of Massachusetts Amherst",
+        where = "Intercampus Marine Sciences Graduate Program",
+        details = c(
+            "Designed and implemented simulation study to understand relationship between residual spatial autocorrelation and statistical inferences from species distribution models",
+            "Collaborated with the NOAA Stellwagen Bank National Marine Sanctuary to deploy satellite tags on Great shearwaters, track their movements, and develop Bayesian Switching State-Space models of their movement and habitat use as a function of landscape variables and oceanographic characteristics",
+            "Participated in interdisciplinary team meetings to evaluate opportunities for linking ecological, societal, economic and technical considerations in meeting the challenge of siting offshore wind turbines in US waters"
+        )
+    ),
+    tibble(
+        what = "Project Leader",
+        when = "2008-2012",
+        with = "University of Massachusetts Amherst and U.S. Fish and Wildlife Service",
+        where = "Amherst, MA and Prince William Sound, AK",
+        details = c(
+            "Designed research objectives, obtained state and federal permits, procured funding, and completed subsequent project reports",
+            "Fit presence-only species distribution model to describe Kittlitz’s murrelet habitat use as a function of temperature-depth profile characteristics and landscape variables",
+            "Deployed radio transmitters using prong and glue attachment techniques and monitoring Kittlitz’s murrelet habitat use using both boat-based tracking and remote data logging stations",
+            "Conducted at-sea surveys for marine birds and mammals from 25’ and 55’ vessels"
+        )
+    )
+)
+
+
+detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+
+```

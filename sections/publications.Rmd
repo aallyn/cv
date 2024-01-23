@@ -50,42 +50,34 @@ pubs <- format.authors("-dn-gUsAAAAJ&hl=en", "A Allyn")
 # print_latex(as_hux(pubs))
 ```
 
-16\. Lewis, ASL., Rollinson, CR., **Allyn, A.J.**., Ashander, J., Brodie, S., Brookson, CB., & ... (2023). The power of forecasts to advance ecological theory. *Methods in Ecology and Evolution*. 14 (3), 746-756\
+16\. Lewis, A.S.L., Rollinson, C.R., **Allyn, A.J.**., Ashander, J., Brodie, S., Brookson, CB., & ... (2023). The power of forecasts to advance ecological theory. *Methods in Ecology and Evolution*. 14 (3), 746-756
 
-15\. Braun, CD., Lezama-Ochoa, N., Farchadi, N., Arostegui, MC., Alexander, M., & ... (2023). Widespread habitat loss and redistribution of marine top predators in a changing ocean. *Science Advances*. 9 (32), eadi2718\
+15\. Braun, C.D., Lezama-Ochoa, N., Farchadi, N., Arostegui, M.C., Alexander, M., **Allyn, A.J.**., & ... (2023). Widespread habitat loss and redistribution of marine top predators in a changing ocean. *Science Advances*. 9 (32), eadi2718
 
-14\. Braun, CD., Arostegui, MC., Farchadi, N., Alexander, M., Afonso, P., **Allyn, A.J.**, & ... (2023). Building use‐inspired species distribution models: Using multiple data types to examine and improve model performance. *Ecological Applications*. 33 (6), e2893\
+14\. Braun, C.D., Arostegui, M.C., Farchadi, N., Alexander, M., Afonso, P., **Allyn, A.J.**, & ... (2023). Building use‐inspired species distribution models: Using multiple data types to examine and improve model performance. *Ecological Applications*. 33 (6), e2893
 
-13\. **Allyn, A.J.**., Alexander, MA., Franklin, BS., Massiot-Granier, F., Pershing, AJ., & ... (2020). Comparing and synthesizing quantitative distribution models and qualitative vulnerability assessments to project marine species distributions under climate change. *PLoS One*. 15 (4), e0231595\
+13\. **Allyn, A.J.**., Alexander, M.A., Franklin, B.S., Massiot-Granier, F., Pershing, A.J., & ... (2020). Comparing and synthesizing quantitative distribution models and qualitative vulnerability assessments to project marine species distributions under climate change. *PLoS One*. 15 (4), e0231595
 
-12\. Kong, S., Bai, J., Lee, JH., Chen, D., **Allyn, A.J.**, Stuart, M., Pinsky, M., Mills, K., & ... (2020). Deep hurdle networks for zero-inflated multi-target regression: Application to multiple species abundance estimation. *arXiv preprint arXiv:*. :2010.16040\
+12\. Kong, S., Bai, J., Lee, J.H., Chen, D., **Allyn, A.J.**, Stuart, M., Pinsky, M., Mills, K., & ... (2020). Deep hurdle networks for zero-inflated multi-target regression: Application to multiple species abundance estimation. *arXiv preprint arXiv:*. :2010.16040
 
-11\. Staudinger, MD., Mills, KE., Stamieszkin, K., Record, NR., Hudak, CA., **Allyn, A.J.**, & ... (2019). It’s about time: A synthesis of changing phenology in the Gulf of Maine ecosystem. *Fisheries Oceanography*. 28 (5), 532-566\
+11\. Staudinger, M.D., Mills, K.E., Stamieszkin, K., Record, N.R., Hudak, C.A., **Allyn, A.J.**, & ... (2019). It’s about time: A synthesis of changing phenology in the Gulf of Maine ecosystem. *Fisheries Oceanography*. 28 (5), 532-566
 
-10\. Schuetz, JG., Mills, KE., **Allyn, A.J.**., Stamieszkin, K., Bris, AL., & Pershing, AJ. (2019). Complex patterns of temperature sensitivity, not ecological traits, dictate diverse species responses to climate change. *Ecography*. 42 (1), 111-124\
+10\. Schuetz, J.G., Mills, K.E., **Allyn, A.J.**., Stamieszkin, K., Bris, A.L., & Pershing, A.J. (2019). Complex patterns of temperature sensitivity, not ecological traits, dictate diverse species responses to climate change. *Ecography*. 42 (1), 111-124
 
-9\. Bris, A Le., Mills, KE., Wahle, RA., Chen, Y., Alexander, MA., **Allyn, A.J.**., & ... (2018). Climate vulnerability and resilience in the most valuable North American fishery. *Proceedings of the National Academy of Sciences*. 115 (8), 1831-1836\
+9\. Le Bris, A., Mills, K.E., Wahle, R.A., Chen, Y., Alexander, M.A., **Allyn, A.J.**., & ... (2018). Climate vulnerability and resilience in the most valuable North American fishery. *Proceedings of the National Academy of Sciences*. 115 (8), 1831-1836
 
-8\. Powers, RA., K.D., Wiley, D.N., **Allyn, A.J.**, Welch, & Ronconi, L.J. &. (2017). Movements and foraging habitats of great shearwaters Puffinus gravis in the Gulf of Maine. *Marine Ecology Progress Series*. \
+8\. Powers, R.A., K.D., Wiley, D.N., **Allyn, A.J.**, Welch, L., & Ronconi, R. (2017). Movements and foraging habitats of great shearwaters Puffinus gravis in the Gulf of Maine. *Marine Ecology Progress Series*. 574, 211-226
 
-7\. **Allyn, A.J.**., McKnight, A., McGarigal, K., Griffin, CR., Kuletz, KJ., Cushing, DA., & ... (2015). Assessing a paired logistic regression model of presence-only data to map important habitat areas of the rare Kittlitz's Murrelet Brachyramphus brevirostris. *Marine Ornithology*. 43, 65-76\
+7\. **Allyn, A.J.**., McKnight, A., McGarigal, K., Griffin, C.R., Kuletz, K.J., Cushing, D.A., & ... (2015). Assessing a paired logistic regression model of presence-only data to map important habitat areas of the rare Kittlitz's Murrelet Brachyramphus brevirostris. *Marine Ornithology*. 43, 65-76
 
-6\. McKnight, A., **Allyn, A.J.**., Duffy, DC., & Irons, DB. (2013). ‘Stepping stone’pattern in Pacific Arctic tern migration reveals the importance of upwelling areas. *Marine Ecology Progress Series*. 491, 253-264\
+6\. McKnight, A., **Allyn, A.J.**., Duffy, D.C., & Irons, D.B. (2013). ‘Stepping stone’pattern in Pacific Arctic tern migration reveals the importance of upwelling areas. *Marine Ecology Progress Series*. 491, 253-264
 
-5\. Kuletz, KJ., Nations, CS., Manly, B., **Allyn, A.J.**., Irons, DB., & McKnight, A. (2013). Brachyramphus murrelet trends and the Prince William Sound, Alaska, surveys: A response to Hodges and Kirchhoff. *Marine Ornithology*. 41, 69-71\
+5\. Kuletz, K.J., Nations, C.S., Manly, B., **Allyn, A.J.**., Irons, D.B., & McKnight, A. (2013). Brachyramphus murrelet trends and the Prince William Sound, Alaska, surveys: A response to Hodges and Kirchhoff. *Marine Ornithology*. 41, 69-71
 
-4\. **Allyn, A.J.**., McKnight, A., McGarigal, K., Griffin, CR., Kuletz, KJ., & Irons, DB. (2012). Relationships among Kittlitz’s murrelet habitat use, temperature-depth profiles, and landscape features in Prince William Sound, Alaska, USA. *Marine Ecology Progress Series*. 466, 233-247\
+4\. **Allyn, A.J.**., McKnight, A., McGarigal, K., Griffin, C.R., Kuletz, K.J., & Irons, D.B. (2012). Relationships among Kittlitz’s murrelet habitat use, temperature-depth profiles, and landscape features in Prince William Sound, Alaska, USA. *Marine Ecology Progress Series*. 466, 233-247
 
-3\. **Allyn, A.J.**. (2012). Population Size, Habitat Use and Diet of Kittlitz's Murrelets in Prince William Sound, Alaska. Masters Thesis. *University of Massachusetts Amherst*. https://doi.org/10.7275/2406354\
+3\. **Allyn, A.J.**. (2012). Population Size, Habitat Use and Diet of Kittlitz's Murrelets in Prince William Sound, Alaska. Masters Thesis. *University of Massachusetts Amherst*. https://doi.org/10.7275/2406354
 
-2\. McKnight, A., Irons, DB., **Allyn, A.J.**., Sullivan, KM., & Suryan, RM. (2011). Winter dispersal and activity patterns of post-breeding black-legged kittiwakes Rissa tridactyla from Prince William Sound, Alaska. *Marine Ecology Progress Series*. 442, 241-253\
+2\. McKnight, A., Irons, DB., **Allyn, A.J.**., Sullivan, KM., & Suryan, RM. (2011). Winter dispersal and activity patterns of post-breeding black-legged kittiwakes Rissa tridactyla from Prince William Sound, Alaska. *Marine Ecology Progress Series*. 442, 241-253
 
-1\. Kuletz, KJ., Nations, CS., Manly, B., **Allyn, A.J.**., Irons, DB., & McKnight, A. (2011). Distribution, abundance and population trends of the Kittlitz's Murrelet Brachyramphus brevirostris in Prince William Sound, Alaska. *Marine Ornithology*. 39, 97-109
-
-# ```{r ScientificImpactFigure, echo = FALSE, fig.height=3, fig.width=10, out.width="80%", fig.align="center", eval = !short}
-
-# source("../files/make_data_impact.R")
-# plot_impact(data_scholar)
-# table_impact(data_scholar, author.name = author.name, scholar.profile = scholar.profile)
-
-# ```
+1\. Kuletz, K.J., Nations, C.S., Manly, B., **Allyn, A.J.**., Irons, D.B., & McKnight, A. (2011). Distribution, abundance and population trends of the Kittlitz's Murrelet Brachyramphus brevirostris in Prince William Sound, Alaska. *Marine Ornithology*. 39, 97-109

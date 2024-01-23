@@ -79,9 +79,8 @@ author.name <- "a allyn"
 
 ```{r Education parent, child=c('sections/education.Rmd')}
 ```
-
-<!-- # ```{r Teaching parent, child=c('sections/teaching.Rmd')}
-# ``` -->
+```{r Research parent, child=c('sections/research.Rmd')}
+```
 
 ```{r Publications parent, child=c('sections/publications.Rmd')}
 ```

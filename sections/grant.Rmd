@@ -7,22 +7,42 @@ output: html_document
 
 # Research Grants
 
-To add: Lobster SDM, NSF Spatial Sciences, GOMCES, NFWF
-
 ```{r Grants}
 data <- rbind(
   
   tibble(
-    Name = "Francisco J. Varela Research Grant (Mind \\& Life Institute) — PI",
-    URL = "https://www.mindandlife.org/grant/transforming-habits-from-the-heart-from-good-intentions-to-reliable-prosocial-response/",
-    Details = "Transforming habits from the heart: From good intentions to reliable prosocial response",
-    Date = "2019 - 2022",
-    Amount = "USD \\$20,000",
-    Activity = NA)
+    Name = "Understanding and improving spatial distribution projections for lobster: Considering predation and building expert consensus",
+    Agency = "Sea Grant American Lobster Research Program",
+    Role = c("Co-Investigator,
+      Assisted with idea generation and proposal writing"),
+    Date = "2020-Present",
+    Amount = "USD \\$220,000"),
+  
+  tibble(
+    Name = "Understanding the Strengths and Limitations of Future Projections of Species Distributions",
+    Agency = "National Sciences Foundation Geography and Spatial Sciences",
+    Role = "Co-Principal Investigator,
+      Led proposal idea generation, writing and budgeting",
+    Date = "Submitted to 2017 RFP",
+    Amount = "Not awarded"),
+  
+  tibble(
+    Name = "The Gulf of Maine Coastal Ecosystem Survey: An integrated multidisciplinary effort to map biological hotspots in the waters of Maine, New Hampshire and Massachusetts",
+    Agency = "U.S. Fish and Wildlife Service Region 5: State Wildlife Grant",
+    Role = "Co-Principal Investigator,
+      Led proposal idea generation, writing and budgeting",
+    Date = "2014-2017",
+    Amount = "USD \\$490,000"),
+  
+  tibble(
+    Name = "Comparison of Kittlitzs Habitat in Prince William Sound, Alaska",
+    Agency = "National Fish and Wildlife Foundation",
+    Role = "Co-Principal Investigator,
+      Led proposal idea generation, writing and budgeting",
+    Date = "2008-2010",
+    Amount = "USD \\$490,000")
+
 )
 
-data <- data %>%
-  mutate(Name = link(Name, URL, color = "333333"))
-
-detailed_entries(data, Details, Date, Name, Amount, Activity, .protect = FALSE)
+detailed_entries(data, Agency, Amount, Name, Date, Role, .protect = FALSE)
 ```

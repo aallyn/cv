@@ -76,6 +76,6 @@ data <- rbind(
 )
 
 
-detailed_entries(data, with, when, what, where, details, .protect = FALSE)
+detailed_entries(data, where, when, what, with, details, .protect = FALSE)
 
 ```

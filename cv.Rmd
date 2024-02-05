@@ -87,7 +87,7 @@ author.name <- "a allyn"
 
 ```{r Grants parent, child=c('sections/grant.Rmd')}
 ```
-
+<!-- 
 ```{r Awards parent, child=c('sections/awards.Rmd')}
 ```
 
@@ -95,4 +95,4 @@ author.name <- "a allyn"
 ```
 
 ```{r Academic service parent, child=c('sections/service.Rmd'), eval = !short}
-```
+``` -->
